@@ -3,8 +3,8 @@ name: Codacy Security Scan
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '19 9 * * 4'
+#  schedule:
+#    - cron: '19 9 * * 4'
 
 permissions:
   contents: read
